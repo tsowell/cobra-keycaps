@@ -43,5 +43,3 @@ File arguments are defined at the top of the script.
 The Cobra keyboard has a different layout from WASD's normal 104-key layout,
 and I failed to account for the different profiles on each row.  So the red
 accent keycaps I put on the numpad make no sense at all.
-
-Also, the apostrophe on the D key should be backslash.

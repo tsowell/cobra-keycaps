@@ -38,5 +38,3 @@ Argumentele de fișiere sunt definit în partea de sus a scriptului.
 Tastatură Cobra-ului are un alt layout decât cel utilizat în aspectul 104-tastă
 a WASD-ului, și nu am luat în calcul diferențele dintre profiluri fiecărui
 rând.  Așa nu au sens taste accentuate roșie care am pus pe numpad.
-
-De asemenea, apostroful pe tastă D ar trebuie să fie un backslash.

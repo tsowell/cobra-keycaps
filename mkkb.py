@@ -494,7 +494,7 @@ def main():
         'g11450': ('I', 'CODE', 'IN', 'INPUT', 'AT'),
         'g11454': ('A', 'READ', '~', 'NEW', 'STOP'),
         'g11458': ('S', 'RESTORE', '|', 'SAVE', 'NOT'),
-        'g11462': ('D', 'DATA', '\'', 'DIM', 'STEP'),
+        'g11462': ('D', 'DATA', '\\', 'DIM', 'STEP'),
         'g11466': ('F', 'SGN', '{', 'FOR', 'TO'),
         'g11470': ('G', 'ABS', '}', 'GOTO', 'THEN'),
         'g11546': ('F', 'SGN', '{', 'FOR', 'TO'),
