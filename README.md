@@ -25,21 +25,14 @@ the Python script to extract and use in keycap layouts.
 
 ### The Python script
 
-Including alternate layouts I used for accent keycaps, there are 10 basic key
-layouts using different combinations of objects from the keycap template.  The
-`main()` function in `mkkb.py` defines the text/color contents of each key in
-each layout, maps those attributes onto objects in the keycap template, and
-finally copies those objects into each individual keycap in the keyboard
-template.
+There are 7 basic key layouts using different combinations of objects from the
+keycap template.  The `main()` function in `mkkb.py` defines the text/color
+contents of each key in each layout, maps those attributes onto objects in the
+keycap template, and finally copies those objects into each individual keycap
+in the keyboard template.
 
 ## Usage
 
 `python mkkb.py`
 
 File arguments are defined at the top of the script.
-
-## Problems
-
-The Cobra keyboard has a different layout from WASD's normal 104-key layout,
-and I failed to account for the different profiles on each row.  So the red
-accent keycaps I put on the numpad make no sense at all.

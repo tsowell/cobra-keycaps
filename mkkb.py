@@ -391,57 +391,27 @@ def main():
     keys = {}
 
     arrow_vertical_defs = {
-        'g11554': (['⇧'],), # up
-        'g11558': (['⇩'],), # down
-    }
-
-    arrow_horizontal_defs = {
-        'g11658': (['⇨'],), # right
-        'g11538': (['⇦'],), # left
-    }
-
-    arrow_vertical_alt_defs = {
-        'g11638': (['⇧'],), # up red
-        'g11634': (['⇩'],), # down red
         'g11674': (['⇧'],), # up
         'g11678': (['⇩'],), # down
     }
 
-    arrow_horizontal_alt_defs = {
-        'g11646': (['⇨'],), # right red
-        'g11642': (['⇦'],), # left red
-        'g11598': (['⇨'],), # right
+    arrow_horizontal_defs = {
+        'g11654': (['⇨'],), # right
         'g11670': (['⇦'],), # left
     }
 
     special_alt_defs = {
-        'g11654': (['ESC'],), # red
-        'g11370': (['ESC'],),
-        'g11626': (['F1'],), # red
-        'g11622': (['F2'],), # red
-        'g11618': (['F3'],), # red
-        'g11614': (['F4'],), # red
-        'g11374': (['F1'],),
-        'g11378': (['F2'],),
-        'g11382': (['F3'],),
-        'g11386': (['F4'],),
-        'g11602': (['LINE', 'FEED'],), # red
-        'g11610': (['NO', 'SCROLL'],), # red
-        'g11606': (['CTRL'],), # red
-        'g11562': (['LINE', 'FEED'],),
-        'g11566': (['NO', 'SCROLL'],),
-        'g11570': (['CTRL'],),
+         'g11602': (['ESC'],),
+         'g11614': (['LINE', 'FEED'],),
+         'g11626': (['NO', 'SCROLL'],),
+         'g11638': (['CTRL'],),
+         'g11610': (['F1'],),
+         'g11622': (['F2'],),
+         'g11634': (['F3'],),
+         'g11646': (['F4'],),
     }
 
     special_defs = {
-        'g11338': (['ESC'],),
-        'g11342': (['F1'],),
-        'g11346': (['F2'],),
-        'g11350': (['F3'],),
-        'g11354': (['F4'],),
-        'g11358': (['LINE', 'FEED'],),
-        'g11362': (['NO', 'SCROLL'],),
-        'g11366': (['CTRL'],),
         'g11746': (['GRAPH', 'NORM'],),
         'g11514': (['NEW', 'MODE'],),
         'g11390': (['PG EDT'],),
@@ -503,15 +473,9 @@ def main():
     keys['g11730'] = make_space()
 
     for key, definition in arrow_vertical_defs.items():
-        keys[key] = make_arrow_vertical(*definition)
-
-    for key, definition in arrow_vertical_alt_defs.items():
         keys[key] = make_arrow_vertical(*definition, background=False)
 
     for key, definition in arrow_horizontal_defs.items():
-        keys[key] = make_arrow_horizontal(*definition)
-
-    for key, definition in arrow_horizontal_alt_defs.items():
         keys[key] = make_arrow_horizontal(*definition, background=False)
 
     for key, definition in special_defs.items():

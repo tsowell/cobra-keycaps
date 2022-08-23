@@ -22,9 +22,8 @@ scriptul le extrage și folosează în layout-uri de tastă.
 
 ### Scriptul Python
 
-Inclusiv layout-uri alternativ am folosit pentru taste accentuate, sunt 10
-layout-uri fundamental cu combinațiile diferite de obiecte din șablonul de
-tastă.  Funcția `main()` din `mkkb.py` definiște conținutul text/culor a
+Sunt 7 layout-uri fundamental cu combinațiile diferite de obiecte din șablonul
+de tastă.  Funcția `main()` din `mkkb.py` definiște conținutul text/culor a
 fiecărei taste în șablon de tastatură.
 
 ## Utilizare
@@ -32,9 +31,3 @@ fiecărei taste în șablon de tastatură.
 `python mkkb.py`
 
 Argumentele de fișiere sunt definit în partea de sus a scriptului.
-
-## Probleme
-
-Tastatură Cobra-ului are un alt layout decât cel utilizat în aspectul 104-tastă
-a WASD-ului, și nu am luat în calcul diferențele dintre profiluri fiecărui
-rând.  Așa nu au sens taste accentuate roșie care am pus pe numpad.
