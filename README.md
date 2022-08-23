@@ -6,7 +6,7 @@ This is a custom keycap design for the Cobra computer.  The design is generated
 by a hacky Python script which parses a template file from WASD Keyboards and
 generates each individual keycap design based on a keycap template.
 
-`keyboard_cobra.svg` is the resulting design.
+[`keyboard_cobra.svg`](keyboard_cobra.svg) is the resulting design.
 
 ## Components
 
