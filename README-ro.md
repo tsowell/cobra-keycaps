@@ -1,8 +1,9 @@
 # Taste pentru Cobra
 
-Acesta este un design custom al tastelor pentru calculatorul Cobra.  Designul
-este generat de un script Python hacky care analizează un fișier șablon din
-WASD Keyboards și generează fiecare tastă pe baza de un șablon de tastă.
+Acesta este un design custom al tastelor pentru
+[calculatorul Cobra](http://cobrasov.com).  Designul este generat de un script
+Python hacky care analizează un fișier șablon din WASD Keyboards și generează
+fiecare tastă pe baza de un șablon de tastă.
 
 Rezultatul este [`keyboard_cobra.svg`](keyboard_cobra.svg).
 
